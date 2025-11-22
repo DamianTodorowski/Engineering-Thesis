@@ -1,0 +1,13 @@
+tensorflow
+numpy
+matplotlib
+torch
+torchvision
+Pillow
+pandas
+scikit-learn
+keras
+textattack
+transformers
+datasets
+tensorflow_hub
