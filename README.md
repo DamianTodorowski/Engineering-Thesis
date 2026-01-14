@@ -87,4 +87,4 @@ Aby uruchomić projekt na lokalnej maszynie, postępuj zgodnie z poniższymi ins
 
 ## Autor
 
-Damian Todorowski - Projekt Inżynierski
+Damian Todorowski 
