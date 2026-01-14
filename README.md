@@ -1,6 +1,6 @@
 # Analiza i Demonstracja Ataków Adwersarialnych w Systemach Uczenia Maszynowego
 
-Ten projekt został zrealizowany w ramach pracy inżynierskiej i koncentruje się na badaniu bezpieczeństwa modeli uczenia maszynowego (ML) w obliczu ataków adwersarialnych (*adversarial attacks*). Projekt obejmuje szerokie spektrum zastosowań, badając podatność na ataki zarówno w przetwarzaniu języka naturalnego (NLP), jak i w widzeniu komputerowym (*Computer Vision*).
+Projekt został zrealizowany w ramach pracy inżynierskiej i koncentruje się na badaniu bezpieczeństwa modeli uczenia maszynowego (ML) w obliczu ataków adwersarialnych (*adversarial attacks*). Projekt obejmuje szerokie spektrum zastosowań, badając podatność na ataki zarówno w przetwarzaniu języka naturalnego (NLP), jak i w widzeniu komputerowym (*Computer Vision*).
 
 ## Opis Projektu
 
