@@ -1,6 +1,6 @@
 # Analiza i Demonstracja Ataków Adwersarialnych w Systemach Uczenia Maszynowego
 
-Projekt został zrealizowany w ramach pracy inżynierskiej i koncentruje się na badaniu bezpieczeństwa modeli uczenia maszynowego (ML) w obliczu ataków adwersarialnych (*adversarial attacks*). Projekt obejmuje szerokie spektrum zastosowań, badając podatność na ataki zarówno w przetwarzaniu języka naturalnego (NLP), jak i w widzeniu komputerowym (*Computer Vision*).
+Projekt został zrealizowany w ramach pracy inżynierskiej i skupia się na badaniu bezpieczeństwa modeli uczenia maszynowego (ML) w obliczu ataków adwersarialnych (*adversarial attacks*). Projekt obejmuje szerokie spektrum zastosowań, badając podatność na ataki zarówno w przetwarzaniu języka naturalnego (NLP), jak i w widzeniu komputerowym (*Computer Vision*).
 
 ## Opis Projektu
 
@@ -8,22 +8,22 @@ Głównym celem projektu jest praktyczna weryfikacja odporności popularnych arc
 
 Zakres realizowanych eksperymentów:
 
-1.  **NLP - Wykrywanie Spamu i Analiza Sentymentu**:
+1.  **NLP (Natural Language Processing) - Wykrywanie Spamu i Analiza Sentymentu**:
     *   Ataki na filtry spamu (zbiory `Enron`, `SMS Spam`) oraz modele analizy sentymentu.
     *   Testowanie modeli o różnej złożoności: od Regresji Logistycznej po modele oparte na Transformerach (BERT, DistilBERT).
     *   Wykorzystanie zaawansowanych technik ataków tekstowych: **TextFooler**, **PWWS**, **TextBugger**, **DeepWordBug** oraz **HopSkipJump**.
 
 2.  **Computer Vision - Klasyfikacja Obrazów**:
-    *   Ataki na modele konwolucyjne (CNN) na zbiorze **MNIST**.
+    *   Ataki na modele splotowe (CNN) na zbiorze **MNIST**.
     *   Ataki na zaawansowane modele klasyfikacji obrazów (**ImageNet**).
     *   Implementacja metody **FGSM (Fast Gradient Sign Method)**.
 
 3.  **Obrona - Trening Adwersarialny**:
-    *   Implementacja mechanizmów obronnych polegających na douczaniu modelu na wygenerowanych przykładach adwersarialnych w celu zwiększenia jego robustności.
+    *   Implementacja mechanizmów obronnych polegających na douczaniu modelu na wygenerowanych przykładach adwersarialnych w celu zwiększenia jego odporności na ataki.
 
 ## Technologie i Biblioteki
 
-Projekt został zrealizowany w języku **Python** z wykorzystaniem interaktywnych notatników **Jupyter Notebook**. Główne wykorzystywane technologie to:
+Projekt został zrealizowany w języku **Python** z wykorzystaniem interaktywnych notatników **Jupyter Notebook**. Wykorzystane technologie to między innymi:
 
 *   **TensorFlow** / **PyTorch**: Frameworki do uczenia głębokiego.
 *   **Adversarial Robustness Toolbox (ART)**: Biblioteka do zapewniania bezpieczeństwa modeli AI.
@@ -35,10 +35,10 @@ Projekt został zrealizowany w języku **Python** z wykorzystaniem interaktywnyc
 
 ## Struktura Katalogów
 
-Główny kod projektu znajduje się w katalogu `Adversarial_Attacks`. Oto opis kluczowych plików:
+Główny kod projektu znajduje się w katalogu `Adversarial_Attacks`. Poniżej znajduje się opis kluczowych plików:
 
 *   `Adversarial_Attack_Email_Spam_ART.ipynb`: Atak HopSkipJump (ART) przeciwko modelowi regresji logistycznej na zbiorze Enron.
-*   `Adversarial_Attack_Spam_Filter.ipynb`: Ataki TextBugger, TextFooler i DeepWordBug przeciwko modelowi BERT-Tiny na zbiorze SMS Spam.
+*   `Adversarial_Attack_Spam_Filter.ipynb`: Ataki TextBugger, TextFooler i DeepWordBug przeciwko modelowi </br> BERT-Tiny na zbiorze SMS Spam.
 *   `Adversarial_attack_1.ipynb`: Demonstracja ataku FGSM na prosty model CNN (zbiór MNIST).
 *   `Adversarial_attack_TextAttackv1.ipynb`: Eksperymenty z metodami TextFooler i PWWS na modelu DistilBERT (analiza sentymentu).
 *   `Adversarial_attack_V2.ipynb`: Atak FGSM na model ImageNet (klasyfikacja obrazów).
