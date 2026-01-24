@@ -37,16 +37,14 @@ Projekt został zrealizowany w języku **Python** z wykorzystaniem interaktywnyc
 
 Główny kod projektu znajduje się w katalogu `Adversarial_Attacks`. Poniżej znajduje się opis kluczowych plików:
 
-*   `Adversarial_Attack_Email_Spam_ART.ipynb`: Atak HopSkipJump (ART) przeciwko modelowi regresji logistycznej na zbiorze Enron.
 *   `Adversarial_Attack_Spam_Filter.ipynb`: Ataki TextBugger, TextFooler i DeepWordBug przeciwko modelowi </br> BERT-Tiny na zbiorze SMS Spam.
 *   `Adversarial_attack_1.ipynb`: Demonstracja ataku FGSM na prosty model CNN (zbiór MNIST).
 *   `Adversarial_attack_TextAttackv1.ipynb`: Eksperymenty z metodami TextFooler i PWWS na modelu DistilBERT (analiza sentymentu).
 *   `Adversarial_attack_V2.ipynb`: Atak FGSM na model ImageNet (klasyfikacja obrazów).
 *   `Adversarial_trainingV1.ipynb`: Trening adwersarialny modelu CNN na zbiorze MNIST w celu zwiększenia odporności.
 *   `CSV_based_attack.ipynb`: Eksperymenty na danych w formacie CSV.
-*   `translate_notebook.py`: Skrypt pomocniczy do tłumaczenia zawartości notatników.
+*   `PGD.ipynb`: Implementacja i demonstracja ataków PGD (ukierunkowanych i niekierowanych) na model ResNet50.
 *   `requirements.txt`: Plik zawierający listę wszystkich zależności niezbędnych do uruchomienia projektu.
-*   `*.csv` (np. `results.csv`, `textfooler_results.csv`): Pliki zawierające zapisane wyniki przeprowadzonych eksperymentów.
 
 ## Instalacja i Uruchomienie
 
@@ -83,7 +81,7 @@ Aby uruchomić projekt na lokalnej maszynie, postępuj zgodnie z poniższymi ins
     jupyter notebook
     ```
 
-6.  **Otwórz wybrany plik `.ipynb`** (np. `Adversarial_Attack_Email_Spam_ART.ipynb`) i uruchom komórki kodowe, aby przeprowadzić symulację ataku.
+6.  **Otwórz wybrany plik `.ipynb`** (np. `PGD.ipynb`) i uruchom komórki kodowe, aby przeprowadzić symulację ataku.
 
 ## Autor
 
