@@ -1,0 +1,15 @@
+ipython
+keras
+matplotlib
+nltk
+numpy
+pandas
+Pillow
+requests
+scikit-learn
+tensorflow
+tensorflow-hub
+textattack
+torch
+torchvision
+transformers
